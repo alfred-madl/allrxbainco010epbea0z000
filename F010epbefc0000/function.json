@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "connectionStringSetting": "CDBPF_ConnectionString",
+      "leaseConnectionStringSetting" :"CDBPF_LeaseConnectionString",
+      "databaseName": "%CDBPF_DatabaseName%",
+      "leaseDatabaseName": "%CDBPF_LeaseDatabaseName%",
+      "collectionName":  "%CDBPF_CollectionName%",
+      "leaseCollectionName":  "%CDBPF_LeaseCollectionName%",
+      "createLeaseCollectionIfNotExists": true,
+      "leaseCollectionPrefix":  "%CDBPF_LeaseCollectionPrefix%",
+      "feedPollDelay": 5000,
+      "preferredLocations": "%CDBPF_PreferredLocations%"
+    }
+  ],
+  "disabled": false
+}
