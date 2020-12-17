@@ -1,8 +1,8 @@
 {
-    "CDBPF_Event_Subject_Path" : "/_rq/_hd/x-apico-event-subject",
-    "CDBPF_Event_Type_Path" : "/_rq/_hd/x-apico-event-type",
+    "CDBPF_Event_Subject_Path" : "/_rq/headers/X-Request-Url-Path",
+    "CDBPF_Event_Type_Path" : "/_rq/headers/X-Operation-ID",
     "CDBPF_Event_ID_Path" : "/id",
     "CDBPF_Event_Time_Path" : "/_wt",
-    "CDBPF_Event_Time_Prefix":"C",
-    "CDBPF_Event_DataVersion_Path":"/_rq/_hd/x-apico-event-data-version"
+    "CDBPF_Event_Time_Prefix":"",
+    "CDBPF_Event_DataVersion_Path":"/_dv"
 }
